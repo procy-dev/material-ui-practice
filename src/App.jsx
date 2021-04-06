@@ -25,7 +25,9 @@ const App = () => {
                             Photo Album
                         </Typography>
                         <Typography variant="h5" align="center" color="textSecondary" paragraph>
-                            This is a long sentence to see how the format of the typography under the container looks. Doing stuff and things to practice material-ui and react stuff!
+                            This is a basic demo of some of what Material-UI can do.
+                            There is no functionality on this page and is soley for practicing front end design with Material-UI.
+                            Material-UI just makes it all TOO EASY!!!
                         </Typography>
                         <div className={classes.buttons}>
                             <Grid container spacing={2} justify="center">

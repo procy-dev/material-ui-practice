@@ -40,6 +40,16 @@ const cards = { //This could be populated from an API or some external data stru
         heading: "Heading number seven",
         description: "This is the seventh test card description"
     },
+    eight: {
+        key: 8,
+        heading: "Heading number eight",
+        description: "This is the eigth test card description"
+    },
+    nine: {
+        key: 9,
+        heading: "Heading number nine",
+        description: "This is the nineth test card description"
+    },
 }
 
 const PhotoCardContainer = () => {
