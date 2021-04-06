@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@material-ui/core';
+import { Typography, AppBar, Button, CssBaseline, Grid, Toolbar, Container } from '@material-ui/core';
 import { PhotoCamera } from '@material-ui/icons';
 
 import PhotoCards from './PhotoCards/PhotoCards';
@@ -52,7 +52,7 @@ const App = () => {
                     Material-UI Practice
                 </Typography>
                 <Typography variant="subtitle1" align="center" color="textSecondary">
-                    This was a demo of Material-UI so I could practice it a bit :)
+                    This was a demo of Material-UI so I could practice it a bit 😁
                 </Typography>
             </footer>
         </>

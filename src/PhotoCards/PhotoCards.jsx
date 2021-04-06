@@ -43,7 +43,7 @@ const cards = { //This could be populated from an API or some external data stru
     eight: {
         key: 8,
         heading: "Heading number eight",
-        description: "This is the eigth test card description"
+        description: "This is the eighth test card description"
     },
     nine: {
         key: 9,
