@@ -50,7 +50,7 @@ const App = () => {
                             <Card className={classes.card}>
                                 <CardMedia 
                                     className={classes.cardMedia}
-                                    image="https://source.unsplash.com/random"
+                                    image={`https://source.unsplash.com/random/${card}`}
                                     title="Image title"
                                 />
                                 <CardContent className={classes.cardContent}>
@@ -71,6 +71,14 @@ const App = () => {
                     </Grid>
                 </Container>
             </main>
+            <footer className={classes.footer}>
+                <Typography variant="h6" align="center" gutterBottom>
+                    Material-UI Practice
+                </Typography>
+                <Typography variant="subtitle1" align="center" color="textSecondary">
+                    This was a demo of Material-UI so I could practice it a bit :)
+                </Typography>
+            </footer>
         </>
     );
 }
